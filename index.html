@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Huzaifa | Cricket Portfolio</title>
+<meta name="description" content="Huzaifa – a cricket loving student, FYBSc Computer Science, training hard at a cricket academy to play at the highest level.">
+<meta name="theme-color" content="#050b24">
+<meta property="og:title" content="Huzaifa | Cricket Portfolio">
+<meta property="og:description" content="In my blood, there is no surrender. I always play, learn and grow.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader"><span>🏏</span><p>HUZAIFA</p></div>
+<div class="progress" id="progress"></div>
+
+<header class="nav">
+  <a class="logo" href="#home">👑 HUZAIFA</a>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+  <nav id="menu">
+    <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#journey">Journey</a><a href="#skills">Skills</a><a href="#mindset">Mindset</a><a href="#cricket">Cricket</a><a href="#message">Message</a><a href="#contact">Contact</a>
+  </nav>
+  <span class="pill">🏆 Dream Big</span>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="welcome"><i></i>Welcome to my Portfolio<i></i></p>
+    <div class="crown">👑</div>
+    <h1>HUZAIFA</h1>
+    <div class="swoosh"></div>
+    <h2><span id="typed">A Cricket Loving Student</span><span class="caret">|</span></h2>
+    <p>In my blood, there is no surrender.<br>I always play, learn and grow…</p>
+    <div class="btns"><a class="btn primary" href="#journey">▶ Watch My Journey</a><a class="btn" href="#about">Know More →</a></div>
+  </div>
+  <div class="hero-img"><img src="images/hero.jpg" alt="Huzaifa with cricket bat"></div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-box">
+    <span class="tag">/// ABOUT ME</span>
+    <h3>My <b>Story</b></h3>
+    <p>I'm Huzaifa, a 12th passed student, now pursuing FYBSc Computer Science. Along with my studies, I'm also practicing hard at a cricket academy to become a better cricketer. My ultimate aim is to play at the highest level and make my dreams real.</p>
+    <div class="chips"><span>🏏 Cricketer</span><span>💻 CS Student</span><span>📚 Always Learning</span><span>🔥 Hard Worker</span></div>
+    <a class="btn small" href="#journey">Read More →</a>
+  </div>
+  <div class="aim-wrap">
+    <div class="card aim"><span class="trophy">🏆</span><div><small>OUR TARGET</small><h4>My Aim</h4><p>To become a professional cricketer.</p></div></div>
+    <div class="mini-stats"><div><b>100%</b><small>Dedication</small></div><div><b>24/7</b><small>Passion</small></div><div><b>∞</b><small>Dreams</small></div></div>
+  </div>
+</section>
+
+<section id="journey">
+  <span class="tag">/// MY JOURNEY</span>
+  <h3>The <b>Journey</b></h3>
+  <div class="steps">
+    <div class="step s1"><em>01</em><span class="ico">🎓</span><h5>12th Passed</h5><p>Completed 12th with dedication</p></div>
+    <div class="step s2"><em>02</em><span class="ico">📖</span><h5>Now Studying</h5><p>FYBSc Computer Science</p></div>
+    <div class="step s3"><em>03</em><span class="ico">🏏</span><h5>Cricket Academy</h5><p>Regular Practice &amp; Hard work</p></div>
+    <div class="step s4"><em>04</em><span class="ico">🏆</span><h5>Bigger Dreams</h5><p>To be a Legendary Cricketer</p></div>
+  </div>
+</section>
+
+<!-- ============ SKILLS & TARGETS (new) ============
+     EDIT: change the data-level="80" numbers (0-100) to Huzaifa's real self-rating -->
+<section id="skills">
+  <span class="tag">/// MY GAME</span>
+  <h3>Skills &amp; <b>Targets</b></h3>
+  <div class="skills-grid">
+    <div class="card skills-card">
+      <h4>🏏 Cricket Skills</h4>
+      <div class="skill"><div class="skill-top"><span>Batting</span><b>98%</b></div><div class="bar"><i data-level="98"></i></div></div>
+      <div class="skill"><div class="skill-top"><span>Bowling</span><b>95%</b></div><div class="bar"><i data-level="95"></i></div></div>
+      <div class="skill"><div class="skill-top"><span>Fielding</span><b>90%</b></div><div class="bar"><i data-level="90"></i></div></div>
+      <div class="skill"><div class="skill-top"><span>Fitness &amp; Stamina</span><b>100%</b></div><div class="bar"><i data-level="100"></i></div></div>
+    </div>
+    <div class="card targets-card">
+      <h4>🎯 My Targets</h4>
+      <ul class="targets">
+        <li class="done"><span>✔</span>Passed 12th</li>
+        <li class="done"><span>✔</span>Joined a cricket academy</li>
+        <li class="going"><span>⏳</span>Complete BSc Computer Science</li>
+        <li class="next"><span>🎯</span>Become a professional cricketer</li>
+        <li class="next"><span>🏆</span>Play at the highest level</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="mindset">
+  <span class="tag">/// THE HUZAIFA MINDSET</span>
+  <h3>My <b>Mindset</b></h3>
+  <div class="grid4">
+    <div class="mcard m1"><em>01</em><span class="mico">🧠</span><h5>Keep Learning</h5><div class="mline"></div><p>Always learn, improve and upgrade myself.</p></div>
+    <div class="mcard m2"><em>02</em><span class="mico">🏔️</span><h5>Stay Grounded</h5><div class="mline"></div><p>No matter what, stay humble.</p></div>
+    <div class="mcard m3"><em>03</em><span class="mico">⭐</span><h5>Dream Bigger</h5><div class="mline"></div><p>Aim high and work harder.</p></div>
+    <div class="mcard m4"><em>04</em><span class="mico">♾️</span><h5>Never Give Up</h5><div class="mline"></div><p>Keep going, no matter how tough it gets.</p></div>
+  </div>
+</section>
+
+<section id="cricket">
+  <span class="tag">/// THE CRICKET FRAMES</span>
+  <h3>My <b>Cricket Life</b></h3>
+  <div class="frames">
+    <figure><img src="images/bat.jpg" alt="Cricket bat"><figcaption>The Bat</figcaption></figure><figure><img src="images/ball.jpg" alt="Cricket ball"><figcaption>The Ball</figcaption></figure><figure><img src="images/stump.jpg" alt="Cricket stumps"><figcaption>The Stumps</figcaption></figure>
+    <div class="cricket-quote"><span class="cq-ball">🏏</span><h4>Cricket</h4><p class="cq-mid">is not just a game…</p><div class="cq-line"></div><p class="cq-life">It's my life…</p></div>
+  </div>
+  <p class="hint">Tap a photo to view it bigger</p>
+</section>
+
+<section class="message" id="message">
+  <div>
+    <span class="tag">/// A MESSAGE FROM HUZAIFA</span>
+    <h3>My <b>Message</b></h3>
+    <p>We should never give up. Hard work is the key to success. Keep trying, keep practicing and never sit tired. Dream big, work hard and make it happen!</p>
+    <p class="script sign">– Huzaifa</p>
+  </div>
+  <div class="card quote-card"><span class="qm">❝</span><p class="ngu">Never Give Up!</p><div class="cq-line"></div><p class="ngu-sub">Hard Work • Discipline • Dreams</p><div class="ngu-icons"><span>🏏</span><span>🔥</span><span>🏆</span></div></div>
+</section>
+
+<!-- ============ CONTACT (new) ============ -->
+<section class="contact" id="contact">
+  <div>
+    <span class="tag">/// GET IN TOUCH</span>
+    <h3>Let's <b>Connect</b></h3>
+    <p>Want to talk cricket, share a tip or just say hi? Drop me a message — I'd love to hear from you.</p>
+    <div class="contact-links" id="contactLinks"></div>
+  </div>
+  <form class="card contact-form" id="contactForm" novalidate>
+    <label>Your Name<input type="text" id="cName" placeholder="Enter your name" required></label>
+    <label>Your Message<textarea id="cMsg" rows="4" placeholder="Write your message…" required></textarea></label>
+    <div class="form-btns" id="formBtns"></div>
+    <p class="form-note" id="formNote"></p>
+  </form>
+</section>
+
+<footer>
+  <a class="logo" href="#home">👑 HUZAIFA<small>Dream • Practice • Achieve</small></a>
+  <div class="social" id="social"></div>
+  <p>© <span id="year">2026</span> Huzaifa. All Rights Reserved.<br>A Cricket Loving Student ❤️</p>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
